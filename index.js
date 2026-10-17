@@ -13,7 +13,6 @@ console.log(tongueTwister);
 
 // Concatenate the string variables into one new string
 
-
 // Print out the concatenated string
 
 
@@ -23,10 +22,13 @@ console.log(tongueTwister);
     Iteration 1.2 | Camel Tail
 *******************************************/
 const part1 = "java";
-const part2 = "script";
+const part2 = "script";  
 
-// Convert the last letter of part1 and part2 to uppercase and concatenate the strings
+const result = `${part1.slice(0,3)}${part1.slice(-1).toUpperCase()}${part2.slice(0,5)}${part2.slice(-1).toUpperCase()}`;
 
+console.log(result);
+
+// Convert the last letter of part1     and part2 to uppercase and concatenate the strings
 
 // Print the cameLtaiL-formatted string
 
