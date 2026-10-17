@@ -5,7 +5,7 @@ const s1 = "Fred";
 const s2 = "fed";
 const s3 = "Ted";
 const s4 = "bread";
-const s5 = "and"; 
+const s5 = "and";
 
 const tongueTwister = ` ${s1} ${s2} ${s3} ${s4} and ${s3} ${s2} ${s1} ${s4} `;
 
@@ -14,6 +14,7 @@ console.log(tongueTwister);
 // Concatenate the string variables into one new string
 
 // Print out the concatenated string
+ 
 
 
 
@@ -22,15 +23,15 @@ console.log(tongueTwister);
     Iteration 1.2 | Camel Tail
 *******************************************/
 const part1 = "java";
-const part2 = "script";  
+const part2 = "script";
 
-const result = `${part1.slice(0,3)}${part1.slice(-1).toUpperCase()}${part2.slice(0,5)}${part2.slice(-1).toUpperCase()}`;
+const result = `${part1.slice(0, 3)}${part1.slice(-1).toUpperCase()}${part2.slice(0, 5)}${part2.slice(-1).toUpperCase()}`;
 
 console.log(result);
 
 // Convert the last letter of part1     and part2 to uppercase and concatenate the strings
 
-// Print the cameLtaiL-formatted string
+// Print the cameLtaiL-formatted string 
 
 
 
@@ -38,12 +39,17 @@ console.log(result);
 /*******************************************
     Iteration 2.1 | Calculate Tip
 *******************************************/
-const billTotal = 84;
+const billTotal = 84; 
+
+const tipAmount = billTotal * 0.15;  
+
+console.log(tipAmount);
+
 
 // Calculate the tip (15% of the bill total)
 
-
 // Print out the tipAmount
+
 
 
 
@@ -54,8 +60,10 @@ const billTotal = 84;
 
 // Generate a random integer between 1 and 10 (inclusive)
 
-
 // Print the generated random number
+
+
+
 
 
 
