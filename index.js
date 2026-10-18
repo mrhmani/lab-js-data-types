@@ -57,9 +57,9 @@ console.log(tipAmount);
     Iteration 2.2 | Generate Random Number
 *******************************************/ 
 
-// let randomNumber = Math.floow(Math.random() + 10) + 1; 
+let randomNumber = Math.floow(Math.random() + 10) + 1; 
 
-// console.log(randomNumber); 
+console.log(randomNumber); 
 
 
 // Generate a random integer between 1 and 10 (inclusive)
